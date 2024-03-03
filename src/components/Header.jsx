@@ -1,6 +1,7 @@
 import React, {useContext, useState} from 'react'
 import {Link, useLocation, useNavigate} from 'react-router-dom'
 
+import user from "../images/user.png"
 import ytLogo from "../images/yt-logo.png"
 import ytLogoMobile from "../images/yt-logo-mobile.png"
 
@@ -74,9 +75,9 @@ const Header = () => {
             </div>
             
           </div>
-          <div className="flex h-8 w-8 overflow-hidden rounded-full md:ml-4">
-              <img src="https://xsgames.co/randomusers/assets/avatars/male/40.jpg" alt="Profile" />
-              {/* <img src={user} alt="Profile" /> */}
+          <div className="flex h-6 w-8 overflow-hidden rounded-full md:ml-3">
+              {/* <img src="https://xsgames.co/randomusers/assets/avatars/male/40.jpg" alt="Profile" /> */}
+              <img src={user} alt="Profile" />
             </div>
         </div>
 
